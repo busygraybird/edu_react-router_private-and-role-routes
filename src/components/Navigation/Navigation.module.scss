@@ -1,0 +1,24 @@
+.navigation {
+  &__link {
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    text-decoration: none;
+
+    &_active {
+
+    }
+  }
+}
+
+.link {
+  &__subtext {
+    font-size: 11px;
+    text-transform: lowercase;
+  }
+
+  &__availableFor {
+    font-style: italic;
+    white-space: nowrap;
+  }
+}
